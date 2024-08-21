@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav>
+        <h2>Logotipo</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="2.html">Inicio2</a></li>
+            <li><a href="3.html">Inicio3</a></li>
+            <li><a href="4.html">Inicio4</a></li>
+            <li><a href="5.html">Inicio5</a></li>
+        </ul>
+    </nav>
+    <header class="a1">
+        <h2>El Castor Laborioso y la Matemática Fundamental</h2>
+        <h3>GGA, jubilado UNAM. UNAM, CdMx</h3>
+        <h3>January 2, 2021</h3>
+    </header>
+    <div class="texto_d">
+        <h3><b>abstract</b></h3>
+        <p>Texto de divulgaciónn matemática dirigido a estudiantes y profesores del bachillerato en adelante.</p>
+    </div>
+    <section class="d1-3">
+        <div class="a-1">
+            <h1>El juego del "castor laborioso".</h1>
+            <h2>1. El problema del castor `laborioso´</h2>
+            <p class="aa-1">De todo mundo es conocida la constancia de los castores (marmotas, nutrias) en mantener a la hora de elaborar sus famosas `represas´y así poder detener el flujo de la corriente y crear estanques de aguas tranquilas, donde poder construir sus madrigueras.</p>
+            <p class="aa-2">Esta idea de la consistencia del castor tuvo que ser la que llevo al matemático de origen húngaro Tibor Rado (1895-1965) a bautizar como el juego o problema del `cas tor laborioso´ a cierto problema que planteó para una `Máquina de Turing´</p>
+        </div>
+        <div class="a-2">
+            <img class="aa-3" src="img/unnamed.jpg" alt="">
+            <img class="aa-4" src="img/2d8829d49933f186c64b4de48e8e1c45.webp" alt="">
+        </div>
+
+    </section>
+    <section class="b1">
+        <h2>1.1 Planteamiento del problema.</h2>
+        <p class="bb1">El hungaro-norteamericano Tibor Radó definió al `castor laborioso´ en [A] como una `Máquina de Turing´ (MT) que satisfase dos condiciones:</p>
+</section>
+<section class="bb-1">
+    <div class="b-1" id="b-1111">
+        <p>1. Al poner el castor a laborar sobre una cinta totalmente ocupada por 0ís (ceros), Èsta termina por detenerse.</p>
+    </div>
+    <div class="b-1" id="b-111">
+        <p>2. El número de 1´s (unos) que imprime no es inferior al que pueda imprimir cualquier `Máquina de Turing´ (MT) de igual número de estados N que lle gue a detenerse. Este número de 1´s (unos) se denota por S (Ó(N))</p>
+    </div>
+    <div class="b-1" id="b-11">
+        <img src="img/images.jfif" alt="">
+    </div>
+</section>
+<section class="bb-2">
+    <div class="b-2">
+        <p>En otras palabras, el problema del castor laborioso es un divertido problema teóri- co de la informática. En forma intuitiva, el problema es encontrar el programa más pe- queño que genere tantos datos como sea posible y finalmente se detenga.</p>
+
+        <p>Resulta que este problema no se puede resolver. En el caso de estados más pequeños, puede razonar al respecto y hacer estimaciones, pero no se puede resolver en general. Los teóricos llaman a estos problemas no computables.</p>
+
+        <p>Actualmente, las personas han logrado resolverlo para N = 1; 2; 3; 4 (para `Máquinas de Turing´ (MT) con 1; 2; 3 y 4 estados) razonando y ejecutando todas las Máquinas de Turing (MT) posibles, pero para N = 5 esta tarea hasta ahora ha sido imposible. Si bien es probable que se resuelva para N = 5, los teóricos del tema dudan que alguna vez se pueda calcular para N = 6 en forma exacta.</p>
+    </div>
+    <div class="b-3">
+        <p>Denotemos por B(N) al número de 1´os (unos) que el atareado castor logró poner en la cinta de una MT. Esta función B(N) se denomina función de
+            castor ocupado y es la solución al problema del castor ocupado. La función del
+            castor ocupado también es interesante: crece más rápido que cualquier función
+            computable. Crece así: <br>
+            B(1) = 1  <br>
+            B(2) = 4  <br>
+            B(3) = 6  <br>
+            B(4) = 13 <br>
+            B(5) = 4098 (cota inferior, ya que aún no se ha encontrado el resultado exacto)  <br>
+            B(6) = 4:6^ 101439 (cota inferior, ya que el exacto al parecer nunca se conocerá)
+            Si se usára un átomo por cada 1 (uno) que el castor ocupado pone en la cinta
+            de la MT, entonces para N = 6, !se llenaría todo el Universo! Así de rápido
+            crece la función del castor ocupado.</p>
+    </div>
+</section>
+</body>
+</html>
